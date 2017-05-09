@@ -6,9 +6,19 @@
 ## Overview
 Script to download a pictures of certain user and save it to the folder(named by username)
 
-## How to use 
+
+## Installation
 ```
-python main.py -u <USERNAME> -n <PHOTO COUNT>
+pip install instagramPictures
+```
+
+## Usage example 
+```bash
+# takes 50 last photos of gabrielconte
+instagramPictures -u gabrielconte -n 50
+
+# seek for help ?
+instagramPictures --help
 ```
 
 
