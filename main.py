@@ -9,7 +9,7 @@ import os
 numberOfPhotos=0
 parser = argparse.ArgumentParser()
 parser.add_argument('-n', '--numberOfPhotos', help='Number of photos that you want to download')
-parser.add_argument('-u', '--username', help='Username of your aim in Instagram')
+parser.add_argument('-u', '--username', help='Username of your victim in Instagram')
 args = parser.parse_args()
 if (not args.username):
 	print "*******Parameter -u is required******"

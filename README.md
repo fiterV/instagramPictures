@@ -1,2 +1,14 @@
-# instagramPictures
-Downloads a pictures of certain user and save it to the specific folder(name of which is equal to the username)
+# InstagramPictures
+
+## Overview
+Script to download a pictures of certain user and save it to the folder(named by username)
+
+## How to use 
+```
+python main.py -u <USERNAME> -n <PHOTO COUNT>
+```
+
+
+## Screenshots
+
+
