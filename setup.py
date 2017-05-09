@@ -11,6 +11,6 @@ setup(
 	keywords = ['instagram', 'pictures', 'download'], # arbitrary keywords
 	classifiers = [],
 	entry_points={
-          'console_scripts': ['instagramPictures = instagramPictures.main']
+          'console_scripts': ['instagramPictures = instagramPictures.main:main']
       },
 )
