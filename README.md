@@ -1,4 +1,5 @@
 # InstagramPictures
+<img src="images/instagramLogo.png"/>
 
 ## Overview
 Script to download a pictures of certain user and save it to the folder(named by username)
@@ -10,5 +11,9 @@ python main.py -u <USERNAME> -n <PHOTO COUNT>
 
 
 ## Screenshots
+
+<img src="images/code.png" width="49%"/>
+<img src="images/photos.png" width="49%"/>
+
 
 

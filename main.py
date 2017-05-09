@@ -23,10 +23,7 @@ numberOfPhotos = int(args.numberOfPhotos)
 
 url = 'https://www.instagram.com/'+username+'/?hl=en'
 driver = webdriver.PhantomJS(service_args=['--ignore-ssl-errors=true', '--ssl-protocol=TLSv1'])
-
-
 driver.get(url)
-
 
 aas = driver.find_elements_by_tag_name('a')
 for i in aas:
