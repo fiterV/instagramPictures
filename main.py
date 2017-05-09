@@ -23,11 +23,10 @@ numberOfPhotos = int(args.numberOfPhotos)
 
 url = 'https://www.instagram.com/'+username+'/?hl=en'
 driver = webdriver.PhantomJS(service_args=['--ignore-ssl-errors=true', '--ssl-protocol=TLSv1'])
-#driver = webdriver.Firefox()
+
 
 driver.get(url)
 
-#print driver.page_source
 
 aas = driver.find_elements_by_tag_name('a')
 for i in aas:
@@ -46,7 +45,7 @@ os.makedirs(username)
 for i in img:
 	if (numberOfPhotos==0):
 		break
-	urllib.urlretrieve(i.get_attribute('src'), username+'/'+str(s))
+	urllib.urlretrieve(i.get_attribute('src'), username+'/'+str(s)+'.jpg')
 	numberOfPhotos-=1
 	s+=1
 	#print i.get_attribute('src')
