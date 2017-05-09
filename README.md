@@ -12,7 +12,4 @@ python main.py -u <USERNAME> -n <PHOTO COUNT>
 
 ## Screenshots
 
-<img src="images/code.png" width="45%"/><img src="images/photos.png" width="45%"/>
-
-
-
+<img src="images/code.png" width="45%" height="201px"/><img src="images/photos.png" width="45%"/>
