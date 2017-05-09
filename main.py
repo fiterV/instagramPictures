@@ -2,7 +2,7 @@
 import urllib
 from selenium import webdriver
 from time import *
-import sys
+import sys, signal
 import argparse
 import os
 
@@ -50,4 +50,5 @@ for i in img:
 	s+=1
 	#print i.get_attribute('src')
 
-driver.close()
+driver.service.process.send_signal(signal.SIGTERM) # kill the specific phantomjs child proc
+driver.quit()  
