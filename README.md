@@ -1,5 +1,6 @@
 # InstagramPictures
 [![PyPI version](https://badge.fury.io/py/instagramPictures.svg)](https://badge.fury.io/py/instagramPictures)
+[![PyPI](https://img.shields.io/pypi/pyversions/instagramPictures.svg?style=flat-square)](https://pypi.python.org/pypi/instagramPictures/)
 
 <img src="images/instagramLogo.png" width="10%"/>
 
